@@ -6,25 +6,26 @@
 
   .nav-all {
     display: flex;
+    order: 2;
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 10px;
 
     h1 {
-    display: flex;
     order: 1;
     align-items: center;
-    font-size: 30px;
+    font-size: 38px;
   }
 
     @media @phone {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
   }
 
   ul {
     display: flex;
-    order: 2;
 
 
     @media @phone {
