@@ -33,7 +33,17 @@
       border-radius: 20px;
       height: 100%;
     }
+        .blast {
+          @media @phone {
+            width: 100%;
+          }
+        }
+        .sky, .launch {
+         @media @phone {
+          display: none;
+        }
   }
+}
 
   .visit-planets {
     padding: 15px;
@@ -65,18 +75,11 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        background-color: #051332;
-        color: white;
-        width: 29%;
-        padding: 3.5%;
-        font-size: 18px;
-        font-weight: bold;
-        margin-left: 2%;
-        text-align: center;
-        border-radius: 10px;
-      }
+      // .btn {
+       // .buttons;
+      // }
     }
+  }
 
     .walk-img {
       width: 46%;
@@ -89,4 +92,4 @@
       }
     }
   }
-}// home
+
