@@ -1,1 +1,46 @@
-// Navigation code here
+.nav {
+  height: 75px;
+  background-color: @nav-bg;
+  border-bottom: 1px solid @nav-border;
+
+
+  .nav-all {
+    display: flex;
+    order: 2;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+    .flex;
+
+    h1 {
+    order: 1;
+    align-items: center;
+    font-size: 38px;
+  }
+
+    @media @phone {
+      .flex;
+    }
+  }
+
+  ul {
+    display: flex;
+
+
+    @media @phone {
+      
+    }
+  
+
+  li {
+    margin: 0 20px;
+    font-size: 1.6em;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+}
